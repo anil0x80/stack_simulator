@@ -13,7 +13,7 @@ commands:
 * push <size> <name>     # push initilized data (register, constant, mem adr, etc.).  adjust stack pointer.
 
 * allocate <size> <name> # push <size> bytes with name <name>. difference is this data is not initialized, and can be divided to further variables. adjust stack pointer.
-*
+
 * print   # will print out the stack.
 
 * show n  # gives detailed information about where [esp + n] exists.
